@@ -2,8 +2,7 @@ import java.util.*;
 public class Clinic{
 
     Scanner in = new Scanner(System.in);
-    String name;
-    int age;
+
     double filler1;
     boolean account;
     float filler3;
