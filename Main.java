@@ -1,20 +1,23 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String args[]){
         ArrayList<Account> accounts = new ArrayList<>();
+        try (Scanner in = new Scanner(System.in)) {
+            Clinic clinic = new Clinic();
+            clinic.Introduction();
 
-        Clinic clinic = new Clinic();
-        clinic.Introduction();
+            if(clinic.account == false){
+                Account account = new Account();
+                accounts.add(account);
+                System.out.print(accounts.get(0));
+            }
 
-        if(clinic.account = true){
-            Account account = new Account();
-            accounts.add(account);
-            System.out.print(accounts.get(0));
+            System.out.print("=====PRESS ENTER TO CONTINUE=====");
+            String enter = in.nextLine();
         }
-        else{
-            System.out.print("Seven");
-        }
-        
+
+        System.out.print("UPDATES COMING...STAY TUNED!!!");
     }
 }

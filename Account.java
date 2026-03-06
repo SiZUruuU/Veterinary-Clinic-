@@ -25,7 +25,7 @@ public class Account {
         System.out.print("Address: ");
         this.address = on.nextLine();
 
-        System.out.println("\n                    =====PLEASE CHOOSE A MEMBERSHIP OPTION=====");
+        System.out.println("\n                              =====PLEASE CHOOSE A MEMBERSHIP OPTION=====");
         System.out.println("\n[1] Chihuahua Membership - Only includes basic checkups and no discount in medicines");
         System.out.println("[2] Beagle Membership - Basic grooming is included with 15% discount in anti-bacterial medicine");
         System.out.println("[3] Rottweiler Membership - All grooming services available with 20% discount in viral and anti-bacterial medicine and access to raffle draw every month");
