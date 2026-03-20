@@ -1,3 +1,4 @@
+package Src;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -14,7 +15,7 @@ public class Main {
                 System.out.print(accounts.get(0));
             }
 
-            System.out.print("=====PRESS ENTER TO CONTINUE=====");
+            System.out.print("\n\n=====PRESS ENTER TO CONTINUE=====");
             String enter = in.nextLine();
         }
 
